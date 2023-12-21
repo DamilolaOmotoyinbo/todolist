@@ -1,0 +1,31 @@
+.todo{
+    background-color: aliceblue;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    margin: 35px 2px;
+    /* flex-wrap: wrap; */
+}
+
+.hero{
+    background-color: aquamarine;
+}
+
+.one{
+    background-color: white;
+}
+
+.two{
+    background-color: white;
+    justify-content: space-around;
+}
+
+.three{
+    background-color: white;
+    justify-content: space-between;
+}
+
+.four{
+    background-color: white;
+    justify-content: space-between;
+}
