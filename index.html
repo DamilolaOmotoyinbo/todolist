@@ -1,46 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../todo.css"/>
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
+    <title>To-do-list App</title>
+  </head>
+  <body>
     <div class="todo">
-        <div class="hero">
-            <h1>
-                GET STUFF DONE
-            </h1>
-            <p>
-                < Monday, July 16th, 2022 > 
-            </p>
+      <div class="hero">
+        <div class="heroimg">
+          <img src="../images/circle-check-solid.svg" />
+        </div>
+        <h1>
+          GET STUFF DONE
+        </h1>
+      </div>
+
+        <div class="date">
+          <button>
+            <img src="../images/chevron-left-solid.svg" />
+          </button>
+          Monday, July 16th, 2022
+          <button>
+            <img src="../images/chevron-right-solid.svg" />
+          </button>
+          
         </div>
 
-        <div class="sectiontwo">
-            <h3 class="one">
-                Submit Application for Summer Internship at GmB
-            </h3>
-
-            <h3 class="two">
-                Reply to recruiter emails
-            </h3>
-
-            <h3 class="three">
-                Schedule initial phone screen with Daria for Wednesday Morning
-            </h3>
-             
-            <h3 class="four">
-                Reach out to Mark about open roles at RS&H
-            </h3>
-
-            <h3 class="five">
-                Add task...
-            </h3>
+      <div class="sectiontwo">
+        <div class="task">
+          <button>
+            <img src="../images/circle-regular.svg" />
+          </button>
+          <h4>
+            Submit Application for Summer Internship
+          </h4>
+          <button>
+            <img src="../images/trash-solid.svg" />
+          </button>
         </div>
         
-        <img src="../images/calender.png"/>
+
+        <!-- <div class="two">
+          <img src="../images/circle-regular.svg" />
+          <h4 >
+            Reply to recruiter emails
+          </h4>
+          <img src="../images/trash-solid.svg" />
+        </div>
         
+
+        <div class="three">
+          <img src="../images/circle-check-solid.svg" />
+          <h4 >
+            Schedule initial phone screen with Daria for Wednesday Morning
+          </h4>
+          <img src="../images/trash-solid.svg" />
+        </div>
+        
+
+        <h4 class="four">
+          <img src="../images/circle-regular.svg" />
+          Reach out to Mark about open roles at RS&H
+          <img src="../images/trash-solid.svg" />
+        </h4>
+
+    </div> -->
     </div>
-</body>
+    <div>
+      <h4 class="addtask">
+        <button>
+          <img src="../images/circle-plus-solid.svg" />
+          Add task...
+        </button>
+     </h4>
+    </div>
+  </body>
 </html>
